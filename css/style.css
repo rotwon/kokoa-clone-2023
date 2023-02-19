@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.welcome-header {
+    margin: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-header__title{
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.welcome-header__text{
+    width: 50%;
+    opacity: 0.5;
+}

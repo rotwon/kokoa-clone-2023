@@ -1,0 +1,10 @@
+
+#status-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.status-bar__Column:first-child span {
+    margin-right: 5px;
+}
